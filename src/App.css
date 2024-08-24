@@ -1,0 +1,89 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #81c9c5, rgb(109, 235, 109), #d68070);
+  height: 95vh;
+
+}
+body{
+  background: linear-gradient(90deg, #81c9c5, rgb(109, 235, 109), #d68070);
+
+}
+
+*{
+  margin: 0px
+}
+textarea {
+  padding: 10px;
+  width: 50%;
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 50px;
+  border: 2px solid gray;
+  resize: none;
+  scrollbar-width: thin;
+  font-family: sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+}
+.add{
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(7, 148, 30, 0.637);
+  box-shadow: none;
+  border: none;
+
+}
+
+.note {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  height: auto;
+  align-self: start;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notes-list {
+  margin-top: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(71, 69, 69);
+  margin: 30px
+}
+.container{
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+}
+.delete{
+  background-color: rgb(247, 136, 136);
+  width: 35px;
+  height: 35px;
+  padding: none;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  top: 2px;
+}
+img{
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.text{
+  word-break: break-word;
+}
