@@ -73,11 +73,13 @@ h1{
   background-color: rgb(247, 136, 136);
   width: 35px;
   height: 35px;
-  padding: none;
+  padding: 5px;
   border: none;
   border-radius: 10px;
   position: relative;
-  top: 2px;
+  top: -5px;
+  right: -5px;
+  padding-bottom: 2px;
 }
 img{
   width: 18px;
@@ -86,4 +88,5 @@ img{
 }
 .text{
   word-break: break-word;
+  text-align: left;
 }

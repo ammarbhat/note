@@ -23,7 +23,7 @@ function App() {
         id: uuidv4(),
         text: input
       };
-      setNotes([...notes, newNote]);
+      setNotes([newNote, ...notes]);
       setInput("");
     }
   };
