@@ -2,21 +2,22 @@
   font-family: sans-serif;
   text-align: center;
   padding: 20px;
-  background: linear-gradient(90deg, #81c9c5, rgb(109, 235, 109), #d68070);
+  background: rgb(32, 32, 32);
+  margin-bottom: 20px;
   height: 95vh;
 
 }
 body{
-  background: linear-gradient(90deg, #81c9c5, rgb(109, 235, 109), #d68070);
-
+  background: rgb(32, 32, 32);
+  scroll-behavior: smooth;
+  
 }
-
 *{
   margin: 0px
 }
 textarea {
   padding: 10px;
-  width: 50%;
+  width: 70%;
   margin-right: 10px;
   border-radius: 10px;
   height: 50px;
@@ -26,6 +27,8 @@ textarea {
   font-family: sans-serif;
   line-height: 20px;
   font-size: 15px;
+  background-color: rgb(80, 77, 77);
+  color: white;
 }
 .add{
   padding: 10px 20px;
@@ -36,39 +39,45 @@ textarea {
   background-color: rgba(7, 148, 30, 0.637);
   box-shadow: none;
   border: none;
+  border: 1px solid #494747;
+
 
 }
 
 .note {
-  background-color: #f9f9f9;
+  background-color: rgb(80, 77, 77);
   padding: 15px;
-  margin: 10px;
-  border: 1px solid #ddd;
+  margin: auto;
+  border: 1px solid #494747;
   border-radius: 10px;
   height: auto;
   align-self: start;
   display: flex;
   justify-content: space-between;
+  color: white;
+  max-width: 600px;
+  margin-bottom: 20px;
 }
 
 .notes-list {
-  margin-top: 20px;
-  max-width: 400px;
-  margin: 0 auto;
+  width: 80%;
+  margin: auto;
   margin-top: 40px;
 }
 h1{
   font-size: 40px;
   font-weight: 600;
-  color: rgb(71, 69, 69);
-  margin: 30px
+  color: white;
+  margin: 30px;
+  margin-top: 10px;
 }
 .container{
   display: flex;
   margin: auto;
-  width: 100%;
+  width: 80%;
   justify-content: center;
 }
+
 .delete{
   background-color: rgb(247, 136, 136);
   width: 35px;
